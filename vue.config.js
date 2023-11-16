@@ -1,5 +1,5 @@
 // vue.config.js
 module.exports = {
-    base: '/gamin-app/',
+    base: '/gaming-app/',
   }
   
