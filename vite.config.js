@@ -8,10 +8,13 @@ export default defineConfig({
     ViteGhPages({
       // Configurations spécifiques à ViteGhPages, par exemple :
       build: {
-        outDir: 'dist', // Dossier de sortie pour le build
+        // Dossier de sortie pour le build  outDir: 'dist',
+        outDir: 'dist',
       }
-    }),
+        }),
+      
 
     ],
+    base : "/gaming-app/",
  
 })
