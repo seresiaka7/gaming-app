@@ -1,23 +1,30 @@
-import React from 'react'
+import React from 'react';
 import Masai from '../assets/Masai.png'
-import Bg1 from '../assets/bg3.png'
 
 const Navbar = () => {
   return (
     <div>
-        <div className='bg-cover h-[800px]  ' style={{backgroundImage:`url(${Bg1})`}}>
-            <header className='flex mt-7 justify-between'>
-                <div  className=' px-10   '>
-                <img src={Masai} width={150}  height={80} alt="logo"/>
+        <div >
+            <header className='flex  justify-evenly items-center bg-indigo-400 relative'>
+                <div  className='   '>
+                <img  className="mb-6" src={Masai} width={150}  height={80} alt="logo"/>
                 </div>
-                 <nav className='mt-8'>
-                    <ul   className='flex justify-center items-center gap-10 pr-9'>
-                        <li  className='px-6'><a href=''>Jouer </a></li>
-                        <li  className='px-6'><a href=''>Acheter</a></li>
-                        <li  className='px-6'><a href=''>Explorer</a></li>
+                <div>
+                 <nav className=' text-white'>
+                    <ul   className='flex justify-start items-center gap-6 pr-5 '>
+                        <li  className='px-10 mr-3  hover:italic font-bold font-mono hover:bg-yellow-500 hover:rounded-md p-3'><a href=''>Jouer</a></li>
+                        <li  className='px-10 mr-3  hover:italic  font-bold font-palanquin  hover:bg-yellow-500 hover:rounded-md p-3'><a href=''>Acheter</a></li>
+
+                        <li  className='px-10 mr-10  hover:italic  font-bold font-palanquin  hover:bg-yellow-500 hover:rounded-md p-3'><a href=''>Explorer</a></li>
                     </ul>
                 </nav>
+                </div >  
+                 <div className='bg-yellow-500 p-3 rounded-full px-9   font-bold font-palanquin  shadow-md '>
+                    <button> Connecter</button>
+                 </div>
             </header>
+
+           
 
         </div>
 

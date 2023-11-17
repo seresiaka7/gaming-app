@@ -1,12 +1,16 @@
 import React from 'react';
+import zer from '../assets/s1.png'
 
-const Section1 = () => {
+
+
+
+const Section2 = () => {
   return (
-    <div>
-       <div className=' py-9 mx-7'>
+    <div className=' bg-orange-100 '>
+         <div className=' py-9 mx-7'>
           <div className='font-extrabold  text-6xl py-9  px-8'>
             <p>Plongez dans un phénomène<br/> du gaming moderne</p>
-          </div>s
+          </div>
           <div className='py-9  px-8 text-justify font-normal'>
          Faites tout ce qui est en votre pouvoir pour être le dernier survivant<br/>
          dans les modes Battle Royale et Zéro construction, assistez à <br/>
@@ -17,13 +21,13 @@ const Section1 = () => {
          <div className='py-9 px-8'>
             <button className='bg-slate-600 rounded-lg p-3 text-white shadow-md'>Visitez le Shop</button>
          </div>
-    
+         <img src={zer} alt="" />
       </div>
        <div>
         
     </div>
- </div>
+    </div>
   )
 }
 
-export default Section1
+export default Section2
