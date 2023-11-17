@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Navbar from './Components/Navbar'
-import Section1 from './Components/Sections/Section1'
-import Section2 from './Components/Sections/Section2'
+
+import Section3 from './Components/Section3'
 //<Section1/>
 //style={{backgroundImage:`url(${Bg1})`}}
 
@@ -15,7 +15,9 @@ function App() {
           <div>
           <Navbar/>
           </div>
-
+          <div>
+          <Section3/>
+          </div>
          </div>
     </div>
   )
