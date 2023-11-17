@@ -6,8 +6,8 @@ import ViteGhPages from 'vite-plugin-gh-pages';
 export default defineConfig({
   plugins: [
     react(
-      {jsxRuntime: 'classic' // Add this line}
-     } ) ],
+     // {jsxRuntime: 'classic' // Add this line}
+      ) ],
      base:"/gaming-app/"
  
   
