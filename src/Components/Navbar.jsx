@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className='bg-cover h-[800px]  ' style={{backgroundImage:`url(${Bg1})`}}>
             <header className='flex mt-7 justify-between'>
                 <div  className=' px-10   '>
-                <img src={Masai} width={100}  height={70} alt="logo"/>
+                <img src={Masai} width={150}  height={80} alt="logo"/>
                 </div>
                  <nav className='mt-8'>
                     <ul   className='flex justify-center items-center gap-10 pr-9'>
