@@ -23,7 +23,7 @@ function App() {
           count is {count}1
         </button>
         <p>
-         Je vais coder une application de gaming 
+         J application de gaming 
         </p>
       </div>
       <p className="read-the-docs">
