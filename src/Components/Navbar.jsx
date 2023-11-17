@@ -12,7 +12,7 @@ const Navbar = () => {
                 </div>
                  <nav className='mt-8'>
                     <ul   className='flex justify-center items-center gap-10 pr-9'>
-                        <li  className='px-6'><a href=''>Jouer</a></li>
+                        <li  className='px-6'><a href=''>Jouer e</a></li>
                         <li  className='px-6'><a href=''>Acheter</a></li>
                         <li  className='px-6'><a href=''>Explorer</a></li>
                     </ul>
