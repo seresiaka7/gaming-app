@@ -21,7 +21,7 @@ function App() {
          <Section1/>
          </div>
          <div>
-         <Section2/>
+        
          </div>
     </div>
     </div>
