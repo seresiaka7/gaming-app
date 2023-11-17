@@ -1,5 +1,5 @@
 import React from 'react'
-import Masai from '../assets/masai.png'
+import Masai from '../assets/Masai.png'
 import Bg1 from '../assets/bg3.png'
 
 const Navbar = () => {
