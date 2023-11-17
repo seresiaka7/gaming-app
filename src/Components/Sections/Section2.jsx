@@ -1,5 +1,4 @@
 import React from 'react';
-import zer from '../assets/s1.png'
 
 
 
@@ -21,7 +20,7 @@ const Section2 = () => {
          <div className='py-9 px-8'>
             <button className='bg-slate-600 rounded-lg p-3 text-white shadow-md'>Visitez le Shop</button>
          </div>
-         <img src={zer} alt="" />
+       
       </div>
        <div>
         
