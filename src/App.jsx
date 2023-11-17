@@ -17,12 +17,9 @@ function App() {
           <Navbar/>
           </div>
 
-         <div>
-         <Section1/>
-         </div>
-         <div>
         
-         </div>
+        
+         
     </div>
     </div>
   )
